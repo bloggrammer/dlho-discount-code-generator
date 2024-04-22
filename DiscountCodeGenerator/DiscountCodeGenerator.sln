@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{7F16F4F3-89E9-4C79-A51C-BA21930496E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{D492C232-F6BC-4ACF-9C8C-DB7F298AAA48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLHO.DiscountCodeGenerator.gRPC", "Server\DLHO.DiscountCodeGenerator.gRPC\DLHO.DiscountCodeGenerator.gRPC.csproj", "{0ED4C70F-2CE4-43A6-9CBE-F80C5D25B66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLHO.DiscountCodeGenerator.Common", "Server\DLHO.DiscountCodeGenerator.Common\DLHO.DiscountCodeGenerator.Common.csproj", "{EB59EDD1-71AF-44CB-83FB-87D1854298D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLHO.DiscountCodeGenerator.DataAccess", "Server\DLHO.DiscountCodeGenerator.DataAccess\DLHO.DiscountCodeGenerator.DataAccess.csproj", "{AF8518A7-EF3D-406F-B9EC-39E8AD7E2D17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLHO.DiscountCodeGenerator.Tests", "Server\DLHO.DiscountCodeGenerator.Tests\DLHO.DiscountCodeGenerator.Tests.csproj", "{EA354CB9-1D6B-4713-87EA-90C8446E15E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DLHO.DiscountCodeGenerator.App", "Client\DLHO.DiscountCodeGenerator.App\DLHO.DiscountCodeGenerator.App.csproj", "{4885BA16-6822-4286-83EF-31941E510A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0ED4C70F-2CE4-43A6-9CBE-F80C5D25B66F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ED4C70F-2CE4-43A6-9CBE-F80C5D25B66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ED4C70F-2CE4-43A6-9CBE-F80C5D25B66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ED4C70F-2CE4-43A6-9CBE-F80C5D25B66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB59EDD1-71AF-44CB-83FB-87D1854298D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB59EDD1-71AF-44CB-83FB-87D1854298D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB59EDD1-71AF-44CB-83FB-87D1854298D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB59EDD1-71AF-44CB-83FB-87D1854298D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8518A7-EF3D-406F-B9EC-39E8AD7E2D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8518A7-EF3D-406F-B9EC-39E8AD7E2D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8518A7-EF3D-406F-B9EC-39E8AD7E2D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8518A7-EF3D-406F-B9EC-39E8AD7E2D17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA354CB9-1D6B-4713-87EA-90C8446E15E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA354CB9-1D6B-4713-87EA-90C8446E15E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA354CB9-1D6B-4713-87EA-90C8446E15E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA354CB9-1D6B-4713-87EA-90C8446E15E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4885BA16-6822-4286-83EF-31941E510A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4885BA16-6822-4286-83EF-31941E510A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4885BA16-6822-4286-83EF-31941E510A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4885BA16-6822-4286-83EF-31941E510A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0ED4C70F-2CE4-43A6-9CBE-F80C5D25B66F} = {7F16F4F3-89E9-4C79-A51C-BA21930496E9}
+		{EB59EDD1-71AF-44CB-83FB-87D1854298D4} = {7F16F4F3-89E9-4C79-A51C-BA21930496E9}
+		{AF8518A7-EF3D-406F-B9EC-39E8AD7E2D17} = {7F16F4F3-89E9-4C79-A51C-BA21930496E9}
+		{EA354CB9-1D6B-4713-87EA-90C8446E15E5} = {7F16F4F3-89E9-4C79-A51C-BA21930496E9}
+		{4885BA16-6822-4286-83EF-31941E510A6B} = {D492C232-F6BC-4ACF-9C8C-DB7F298AAA48}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F47E323-EE0B-4717-B8D0-188B655AB905}
+	EndGlobalSection
+EndGlobal

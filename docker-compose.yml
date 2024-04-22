@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  diccount_db:
+    hostname: diccount_db
+    container_name: diccount_db
+    image: postgres:13.14-alpine3.19
+    restart: always
+    env_file: .env
+    environment:
+      - POSTGRES_USER=$POSTGRES_USER
+      - POSTGRES_PASSWORD=$POSTGRES_PASSWORD
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+volumes:
+  postgres_data:
